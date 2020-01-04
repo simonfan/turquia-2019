@@ -1,0 +1,100 @@
+.Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  > figure {
+    max-width: 1500px;
+    width: 80%;
+
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    > div {
+      width: 80%;
+      margin-right: 20px;
+      flex-grow: 0;
+      flex-shrink: 0;
+
+      > .ImageRow {
+        display: flex;
+        justify-content: center;
+
+        > .ImageRowImage {
+          display: block;
+          & + .ImageRowImage {
+            margin-left: 20px;
+          }
+        }
+
+        &.ImageRow--1 {
+          > .ImageRowImage.ImageRowImage--horizontal {
+            display: block;
+            width: 100%;
+          }
+          > .ImageRowImage.ImageRowImage--vertical {
+            display: block;
+            // height: 80vh;
+            height: 90vh;
+          }
+        }
+
+        &.ImageRow--2 {
+          > .ImageRowImage.ImageRowImage--horizontal {
+            width: calc((100% - 20px) / 2);
+          }
+          > .ImageRowImage.ImageRowImage--vertical {
+            display: block;
+            height: 80vh;
+          }
+        }
+
+        &.ImageRow--3 {
+          > .ImageRowImage.ImageRowImage--horizontal {
+            width: calc((100% - (2 * 20px)) / 3);
+          }
+          > .ImageRowImage.ImageRowImage--vertical {
+            display: block;
+            height: 60vh;
+          }
+        }
+
+        &.ImageRow--4 {
+          > .ImageRowImage.ImageRowImage--horizontal {
+            width: calc((100% - (3 * 20px)) / 4);
+          }
+          > .ImageRowImage.ImageRowImage--vertical {
+            display: block;
+            height: 30vh;
+          }
+        }
+
+        & + .ImageRow {
+          margin-top: 20px;
+        }
+      }
+    }
+
+    > figcaption {
+      // position: sticky;
+      // top: 50vh;
+      color: gainsboro;
+      font-size: 0.875rem;
+      white-space: pre-wrap;
+
+      > address {
+        font-style: normal;
+        color: darkgray;
+        margin-bottom: 5px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+    }
+  }
+}
