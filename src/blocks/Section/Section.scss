@@ -1,0 +1,13 @@
+.Section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 5%;
+  padding-bottom: 5%;
+
+  > .Section__Contents {
+    max-width: 1500px;
+    width: 80%;
+  }
+}

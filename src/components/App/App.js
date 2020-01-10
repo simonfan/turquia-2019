@@ -1,20 +1,25 @@
 import React from 'react'
 import './App.scss'
 
-import { Section } from '../Section/Section'
+import { Block } from '../Block/Block'
+import { DataContext } from '../DataContext/DataContext'
 
 export const App = ({
   sections
 }) => {
-
-  console.log(sections)
-
-  return <main className='App'>
-    {sections.map((section, index) => (
-      <Section
-        key={index}
-        {...section}
-      />
-    ))}
-  </main>
+  return <DataContext.Provider value={{
+      resolveImageUrls: ({ id }) => ({
+        placeholderSrc: `photos/miniature/${id}`,
+        src: `photos/display/${id}`,
+      })
+    }}>
+    <main className='App'>
+      {sections.map((section, index) => (
+        <Block
+          key={index}
+          {...section}
+        />
+      ))}
+    </main>
+  </DataContext.Provider>
 }
