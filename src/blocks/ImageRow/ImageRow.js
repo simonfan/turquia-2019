@@ -1,5 +1,6 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef, useEffect, useContext } from 'react'
 import { HtmlTag } from '../HtmlTag/HtmlTag'
+import { DataContext } from '../../components/DataContext/DataContext'
 
 import { useRect } from '@orioro/react-util'
 
@@ -45,16 +46,19 @@ export const ImageRow = ({
 }) => {
   const containerRef = useRef(null)
 
-  const [aspectRatios, setImageAspectRatios] = useState(
-    images.map(({ aspectRatio }) => aspectRatio || {...defaultAspectRatio, isProvisional: true })
-  )
+  const { getImageData } = useContext(DataContext)
 
+  // const [aspectRatios, setImageAspectRatios] = useState(
+  //   images.map(({ aspectRatio }) => aspectRatio || {...defaultAspectRatio, isProvisional: true })
+  // )
 
   const [imageDimensions, setImageDimensions] = useState(null)
   const { width, height } = useRect(containerRef)
 
   useEffect(() => {
-    if (aspectRatios && width && height) {
+    const aspectRatios = images.map(image => getImageData(image).aspectRatio)
+
+    if (width && height) {
       setImageDimensions(calculateImageDimensions({
         aspectRatios,
         availableWidth: width,
@@ -62,7 +66,7 @@ export const ImageRow = ({
         gap,
       }))
     }
-  }, [aspectRatios, width, height])
+  }, [width, height, gap])
 
   const marginCSSKey = direction === 'ltr' ? 'marginLeft' : 'marginRight'
 
@@ -78,28 +82,29 @@ export const ImageRow = ({
         : targetHeight,
     }}
     ref={containerRef}>
-    {imageDimensions && images.map(({ style = {}, type, ...imageProps}, index) => <Block
-      {...imageProps}
-      key={index}
-      type={type ? type : 'Image'}
+    {imageDimensions && images.map(({ type, ...imageProps}, index) => <div
       style={index > 0 ? {
-        ...style,
         [marginCSSKey]: gap,
-      } : style}
-      width={imageDimensions[index].width}
-      height={imageDimensions[index].height}
-      onLoad={e => {
-        if (aspectRatios[index].isProvisional) {
-          setImageAspectRatios([
-            ...aspectRatios.slice(0, index),
-            {
-              width: e.target.naturalWidth,
-              height: e.target.naturalHeight
-            },
-            ...aspectRatios.slice(index + 1)
-          ])
-        }
-      }}
-    />)}
+      } : {}}>
+      <Block
+        {...imageProps}
+        key={index}
+        type={type ? type : 'Image'}
+        width={imageDimensions[index].width}
+        height={imageDimensions[index].height}
+        onLoad={e => {
+          // if (aspectRatios[index].isProvisional) {
+          //   setImageAspectRatios([
+          //     ...aspectRatios.slice(0, index),
+          //     {
+          //       width: e.target.naturalWidth,
+          //       height: e.target.naturalHeight
+          //     },
+          //     ...aspectRatios.slice(index + 1)
+          //   ])
+          // }
+        }}
+      />
+    </div>)}
   </HtmlTag>
 }

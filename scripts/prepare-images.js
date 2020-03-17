@@ -27,7 +27,7 @@ const generateImages = async imageName => {
     // Display
     image
       .clone()
-      .resize({ width: 2500, height: 2500, fit: 'inside' })
+      .resize({ width: 2000, height: 2000, fit: 'inside' })
       .toFile(path.join(OUT_DIR, 'display', imageName))
   ])
 

@@ -246,7 +246,7 @@ export default [
     "imageRows": [
       [
         {
-          "id": "DSC_2637.JPG"
+          "id": "DSC_2655.JPG"
         }
       ],
       [
@@ -257,7 +257,7 @@ export default [
           "id": "DSC_2646.JPG"
         },
         {
-          "id": "DSC_2655.JPG"
+          "id": "DSC_2637.JPG"
         }
       ]
     ],
@@ -900,22 +900,13 @@ export default [
       [
         {
           "id": "DSC_3031.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3031.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3033.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_3033.JPG"
         }
       ]
     ],
-    "caption": "DSC_3033.JPG"
+    "caption": "DSC_3031.JPG"
   },
   {
     "type": "ImageSection",
@@ -932,18 +923,6 @@ export default [
     ],
     "address": "Cide",
     "caption": "Mesquita\nObservar comércio logo abaixo da construção da mesquita"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3048.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3048.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3048.JPG"
   },
   {
     "type": "ImageSection",
@@ -1004,18 +983,6 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_3128.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3128.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3128.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_3079.JPG",
     "imageRows": [
       [
@@ -1033,12 +1000,11 @@ export default [
     "imageRows": [
       [
         {
-          "id": "DSC_3083.JPG"
+          "id": "DSC_3128.JPG"
         }
       ]
     ],
-    "address": "Inebolu",
-    "caption": "Vendedor de chá"
+    "address": "Inebolu"
   },
   {
     "type": "ImageSection",
@@ -1060,6 +1026,9 @@ export default [
       [
         {
           "id": "DSC_3090.JPG"
+        },
+        {
+          "id": "DSC_3083.JPG"
         }
       ]
     ],
@@ -1086,6 +1055,9 @@ export default [
       [
         {
           "id": "DSC_3095.JPG"
+        },
+        {
+          "id": "DSC_3098.JPG"
         }
       ]
     ],
@@ -1107,19 +1079,6 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_3098.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3098.JPG"
-        }
-      ]
-    ],
-    "address": "Inebolu",
-    "caption": "Homens tomam chai"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_3101.JPG",
     "imageRows": [
       [
@@ -1138,24 +1097,14 @@ export default [
       [
         {
           "id": "DSC_3102.JPG"
-        }
-      ]
-    ],
-    "address": "Inebolu",
-    "caption": "Vendedores de sacolas de mercado"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3106.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_3106.JPG"
         }
       ]
     ],
     "address": "Inebolu",
-    "caption": "Mercado"
+    "caption": "Mercado\nÀ direita, vendedores de sacolas de mercado\nÀ esquerda, vendedora de nozes"
   },
   {
     "type": "ImageSection",
@@ -1190,23 +1139,14 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_3114.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3114.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3114.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_3115.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_3115.JPG"
+        },
+        {
+          "id": "DSC_3114.JPG"
         }
       ]
     ],
@@ -1247,6 +1187,9 @@ export default [
       [
         {
           "id": "DSC_3120.JPG"
+        },
+        {
+          "id": "DSC_3124.JPG"
         }
       ]
     ],
@@ -1269,41 +1212,19 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_3124.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3124.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3124.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_3134.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_3134.JPG"
-        }
-      ]
-    ],
-    "address": "Inebolu",
-    "caption": "Mesquita"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3160.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_3160.JPG"
         }
       ]
     ],
     "address": "Inebolu",
-    "caption": "Casa no estilo Otomano tradicional"
+    "caption": "Mesquita | Casa no estilo Otomano tradicional"
   },
   {
     "type": "ImageSection",
@@ -1508,45 +1429,17 @@ export default [
         {
           "id": "DSC_3358.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_3358.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3363.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_3363.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3363.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3368.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_3368.JPG"
         }
       ]
     ],
-    "caption": "DSC_3368.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3378.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3378.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3378.JPG"
+    "caption": "DSC_3358.JPG"
   },
   {
     "type": "ImageSection",
@@ -1555,6 +1448,9 @@ export default [
       [
         {
           "id": "DSC_3380.JPG"
+        },
+        {
+          "id": "DSC_3378.JPG"
         }
       ]
     ],
@@ -1766,14 +1662,7 @@ export default [
         {
           "id": "DSC_3466.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_3466.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3470.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_3470.JPG"
@@ -1789,7 +1678,7 @@ export default [
         }
       ]
     ],
-    "caption": "DSC_3470.JPG"
+    "caption": "DSC_3466.JPG"
   },
   {
     "type": "ImageSection",
@@ -1946,32 +1835,18 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_3556.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3556.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3556.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3558.JPG",
+    "id": "DSC_3559.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_3558.JPG"
+        },
+      ],
+      [
+        {
+          "id": "DSC_3556.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_3558.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3559.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_3559.JPG"
@@ -2088,25 +1963,19 @@ export default [
     "imageRows": [
       [
         {
-          "id": "DSC_3641.JPG"
-        },
-        {
-          "id": "DSC_3642.JPG"
-        },
-        {
-          "id": "DSC_3643.JPG"
+          "id": "DSC_3660.JPG"
         }
       ],
       [
+        {
+          "id": "DSC_3641.JPG"
+        },
         {
           "id": "DSC_3644.JPG"
         },
         {
           "id": "DSC_3645.JPG"
         },
-        {
-          "id": "DSC_3646.JPG"
-        }
       ]
     ],
     "caption": "DSC_3641.JPG"
@@ -2117,50 +1986,11 @@ export default [
     "imageRows": [
       [
         {
-          "id": "DSC_3647.JPG"
-        },
-        {
-          "id": "DSC_3653.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3647.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3654.JPG",
-    "imageRows": [
-      [
-        {
           "id": "DSC_3654.JPG"
         }
       ]
     ],
-    "caption": "DSC_3654.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3655.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3655.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3655.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3660.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3660.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3660.JPG"
+    "caption": "DSC_3647.JPG"
   },
   {
     "type": "ImageSection",
@@ -2181,6 +2011,17 @@ export default [
       [
         {
           "id": "DSC_3667.JPG"
+        },
+      ],
+      [
+        {
+          "id": "DSC_3671.JPG"
+        },
+        {
+          "id": "DSC_3676.JPG"
+        },
+        {
+          "id": "DSC_3678.JPG"
         }
       ]
     ],
@@ -2193,22 +2034,13 @@ export default [
       [
         {
           "id": "DSC_3669.JPG"
+        },
+        {
+          "id": "DSC_3677.JPG"
         }
       ]
     ],
     "caption": "DSC_3669.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3671.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3671.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3671.JPG"
   },
   {
     "type": "ImageSection",
@@ -2217,70 +2049,13 @@ export default [
       [
         {
           "id": "DSC_3672.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3672.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3673.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_3673.JPG"
         }
       ]
     ],
-    "caption": "DSC_3673.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3675.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3675.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3675.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3676.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3676.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3676.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3677.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3677.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3677.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3678.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3678.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3678.JPG"
+    "caption": "DSC_3672.JPG"
   },
   {
     "type": "ImageSection",
@@ -2428,18 +2203,6 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_3691.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3691.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3691.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_3692.JPG",
     "imageRows": [
       [
@@ -2461,18 +2224,6 @@ export default [
       ]
     ],
     "caption": "DSC_3693.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3694.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_3694.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3694.JPG"
   },
   {
     "type": "ImageSection",
@@ -3010,20 +2761,13 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_3946.JPG",
+    "id": "DSC_3947.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_3946.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_3946.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3947.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_3947.JPG"
@@ -3720,18 +3464,6 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4104.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4104.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4104.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4105.JPG",
     "imageRows": [
       [
@@ -3816,18 +3548,6 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4121.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4121.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4121.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4122.JPG",
     "imageRows": [
       [
@@ -3845,22 +3565,13 @@ export default [
       [
         {
           "id": "DSC_4123.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4123.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4125.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4125.JPG"
         }
       ]
     ],
-    "caption": "DSC_4125.JPG"
+    "caption": "DSC_4123.JPG"
   },
   {
     "type": "ImageSection",
@@ -3873,18 +3584,6 @@ export default [
       ]
     ],
     "caption": "DSC_4131.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4132.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4132.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4132.JPG"
   },
   {
     "type": "ImageSection",
@@ -3905,6 +3604,9 @@ export default [
       [
         {
           "id": "DSC_4136.JPG"
+        },
+        {
+          "id": "DSC_4138.JPG"
         }
       ]
     ],
@@ -3912,63 +3614,26 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4138.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4138.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4138.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4140.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4140.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4140.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4143.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4143.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4143.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4148.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4148.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4148.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4149.JPG",
-    "imageRows": [
+      ],
       [
+        {
+          "id": "DSC_4140.JPG"
+        },
+        {
+          "id": "DSC_4143.JPG"
+        },
         {
           "id": "DSC_4149.JPG"
         }
       ]
     ],
-    "caption": "DSC_4149.JPG"
+    "caption": "DSC_4140.JPG"
   },
   {
     "type": "ImageSection",
@@ -3989,6 +3654,9 @@ export default [
       [
         {
           "id": "DSC_4154.JPG"
+        },
+        {
+          "id": "DSC_4155.JPG"
         }
       ]
     ],
@@ -3996,63 +3664,23 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4155.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4155.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4155.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4156.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4156.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4156.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4157.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4157.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4157.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4158.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4158.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4158.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4162.JPG",
-    "imageRows": [
+      ],
       [
         {
-          "id": "DSC_4162.JPG"
+          "id": "DSC_4156.JPG"
+        },
+        {
+          "id": "DSC_4157.JPG"
         }
       ]
     ],
-    "caption": "DSC_4162.JPG"
+    "caption": "DSC_4156.JPG"
   },
   {
     "type": "ImageSection",
@@ -4061,6 +3689,9 @@ export default [
       [
         {
           "id": "DSC_4164.JPG"
+        },
+        {
+          "id": "DSC_4166.JPG"
         }
       ]
     ],
@@ -4068,27 +3699,21 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4166.JPG",
+    "id": "DSC_4162.JPG",
     "imageRows": [
       [
         {
-          "id": "DSC_4166.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4166.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4167.JPG",
-    "imageRows": [
-      [
+          "id": "DSC_4162.JPG"
+        },
         {
           "id": "DSC_4167.JPG"
+        },
+        {
+          "id": "DSC_4169.JPG"
         }
       ]
     ],
-    "caption": "DSC_4167.JPG"
+    "caption": "DSC_4162.JPG"
   },
   {
     "type": "ImageSection",
@@ -4104,39 +3729,18 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4169.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4169.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4169.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4174.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4174.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4174.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4176.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4176.JPG"
         }
       ]
     ],
-    "caption": "DSC_4176.JPG"
+    "caption": "DSC_4174.JPG"
   },
   {
     "type": "ImageSection",
@@ -4152,51 +3756,26 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4180.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4180.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4180.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4181.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4181.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4181.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4182.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4182.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4182.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4183.JPG",
-    "imageRows": [
+      ],
       [
+        {
+          "id": "DSC_4180.JPG"
+        },
+        {
+          "id": "DSC_4181.JPG"
+        },
         {
           "id": "DSC_4183.JPG"
         }
       ]
     ],
-    "caption": "DSC_4183.JPG"
+    "caption": "DSC_4182.JPG"
   },
   {
     "type": "ImageSection",
@@ -4206,33 +3785,17 @@ export default [
         {
           "id": "DSC_4184.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4184.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4185.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_4185.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4185.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4186.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4186.JPG"
         }
       ]
     ],
-    "caption": "DSC_4186.JPG"
+    "caption": "DSC_4184.JPG"
   },
   {
     "type": "ImageSection",
@@ -4389,7 +3952,7 @@ export default [
       ],
       [
         {
-          "id": "DSC_4231.JPG"
+          "id": "DSC_4228.JPG"
         },
         {
           "id": "DSC_4225.JPG"
@@ -4400,7 +3963,7 @@ export default [
       ],
       [
         {
-          "id": "DSC_4228.JPG"
+          "id": "DSC_4231.JPG"
         }
       ]
     ],
@@ -4489,33 +4052,17 @@ export default [
         {
           "id": "DSC_4249.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4249.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4253.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_4253.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4253.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4260.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4260.JPG"
         }
       ]
     ],
-    "caption": "DSC_4260.JPG"
+    "caption": "DSC_4249.JPG"
   },
   {
     "type": "ImageSection",
@@ -4525,33 +4072,17 @@ export default [
         {
           "id": "DSC_4262.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4262.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4267.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_4267.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4267.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4268.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4268.JPG"
         }
       ]
     ],
-    "caption": "DSC_4268.JPG"
+    "caption": "DSC_4262.JPG"
   },
   {
     "type": "ImageSection",
@@ -4561,14 +4092,7 @@ export default [
         {
           "id": "DSC_4269.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4269.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4270.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_4270.JPG"
@@ -4578,7 +4102,7 @@ export default [
         }
       ]
     ],
-    "caption": "DSC_4270.JPG"
+    "caption": "DSC_4269.JPG"
   },
   {
     "type": "ImageSection",
@@ -4611,34 +4135,16 @@ export default [
       [
         {
           "id": "DSC_4278.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4278.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4279.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4279.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4279.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4280.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4280.JPG"
         }
       ]
     ],
-    "caption": "DSC_4280.JPG"
+    "caption": "DSC_4278.JPG"
   },
   {
     "type": "ImageSection",
@@ -4702,51 +4208,18 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4295.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4295.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4295.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4296.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4296.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4296.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4298.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4298.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4298.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4302.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4302.JPG"
         }
       ]
     ],
-    "caption": "DSC_4302.JPG"
+    "caption": "DSC_4298.JPG"
   },
   {
     "type": "ImageSection",
@@ -4807,51 +4280,23 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4321.JPG",
+    "id": "DSC_4323.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4321.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4321.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4323.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_4323.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4323.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4334.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4334.JPG"
         }
       ]
     ],
-    "caption": "DSC_4334.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4339.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4339.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4339.JPG"
+    "caption": "DSC_4323.JPG"
   },
   {
     "type": "ImageSection",
@@ -4861,39 +4306,26 @@ export default [
         {
           "id": "DSC_4340.JPG"
         }
+      ],
+      [
+        {
+          "id": "DSC_4342.JPG"
+        },
+        {
+          "id": "DSC_4341.JPG"
+        }
       ]
     ],
     "caption": "DSC_4340.JPG"
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4341.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4341.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4341.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4342.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4342.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4342.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4349.JPG",
     "imageRows": [
       [
+        {
+          "id": "DSC_4339.JPG"
+        },
         {
           "id": "DSC_4349.JPG"
         }
@@ -4927,21 +4359,17 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4357.JPG",
+    "id": "DSC_4360.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4357.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4357.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4360.JPG",
-    "imageRows": [
+      ],
       [
+        {
+          "id": "DSC_4363.JPG"
+        },
         {
           "id": "DSC_4360.JPG"
         }
@@ -4951,51 +4379,18 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4363.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4363.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4363.JPG"
-  },
-  {
-    "type": "ImageSection",
     "id": "DSC_4365.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4365.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4365.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4367.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4367.JPG"
         }
       ]
     ],
-    "caption": "DSC_4367.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4369.JPG",
-    "imageRows": [
-      [
-        {
-          "id": "DSC_4369.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4369.JPG"
+    "caption": "DSC_4365.JPG"
   },
   {
     "type": "ImageSection",
@@ -5017,9 +4412,9 @@ export default [
         {
           "id": "DSC_4372.JPG"
         },
-        // {
-        //   "id": "DSC_4373.JPG"
-        // },
+        {
+          "id": "DSC_4373.JPG"
+        },
         {
           "id": "DSC_4375.JPG"
         }
@@ -5410,39 +4805,23 @@ export default [
   },
   {
     "type": "ImageSection",
-    "id": "DSC_4476.JPG",
+    "id": "DSC_4478.JPG",
     "imageRows": [
       [
         {
           "id": "DSC_4476.JPG"
         }
-      ]
-    ],
-    "caption": "DSC_4476.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4478.JPG",
-    "imageRows": [
+      ],
       [
         {
           "id": "DSC_4478.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_4478.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_4480.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_4480.JPG"
         }
       ]
     ],
-    "caption": "DSC_4480.JPG"
+    "caption": "DSC_4478.JPG"
   },
   {
     "type": "ImageSection",
