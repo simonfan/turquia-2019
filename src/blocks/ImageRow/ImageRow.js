@@ -1,8 +1,9 @@
-import React, { useState, useRef, useEffect, useContext } from 'react'
+import React, { useRef, useContext } from 'react'
 import { HtmlTag } from '../HtmlTag/HtmlTag'
 import { DataContext } from '../../components/DataContext/DataContext'
 
 import { useRect } from '@orioro/react-util'
+import { useMedia } from 'react-use'
 
 const calculateImageDimensions = ({
   aspectRatios = [],
@@ -12,10 +13,13 @@ const calculateImageDimensions = ({
 }) => {
   const sameHeightWidths = aspectRatios.map(({ width, height }) => (targetHeight / height) * width)
 
-  const totalSize = sameHeightWidths.reduce((acc, width) => acc + width, 0) + (aspectRatios.length - 1) * gap
+  const gapsTotalWidth = (aspectRatios.length - 1) * gap
+  const totalSize = sameHeightWidths.reduce((acc, width) => acc + width, 0)
 
-  const multiplier = totalSize > availableWidth
-    ? availableWidth / totalSize
+  const availableWidthMinusGaps = availableWidth - gapsTotalWidth
+
+  const multiplier = totalSize > availableWidthMinusGaps
+    ? availableWidthMinusGaps / totalSize
     : 1
 
   return sameHeightWidths.map((w, index) => {
@@ -33,7 +37,7 @@ const calculateImageDimensions = ({
 export const ImageRow = ({
   images,
   targetHeight = 200,
-  gap = 20,
+  gap,
   style = {},
   direction = 'ltr',
   defaultAspectRatio = {
@@ -44,29 +48,25 @@ export const ImageRow = ({
 
   ...props
 }) => {
+  const isMobile = useMedia('(max-width: 600px)')
+  gap = isMobile ? 15 : 20
+
+  const shouldBeFullWidthImage = isMobile && images.length === 1
+
   const containerRef = useRef(null)
 
   const { getImageData } = useContext(DataContext)
+  const { width } = useRect(containerRef)
 
-  // const [aspectRatios, setImageAspectRatios] = useState(
-  //   images.map(({ aspectRatio }) => aspectRatio || {...defaultAspectRatio, isProvisional: true })
-  // )
-
-  const [imageDimensions, setImageDimensions] = useState(null)
-  const { width, height } = useRect(containerRef)
-
-  useEffect(() => {
-    const aspectRatios = images.map(image => getImageData(image).aspectRatio)
-
-    if (width && height) {
-      setImageDimensions(calculateImageDimensions({
+  const aspectRatios = images.map(image => getImageData(image).aspectRatio)
+  const imageDimensions = (width !== undefined)
+    ? calculateImageDimensions({
         aspectRatios,
         availableWidth: width,
-        targetHeight: height,
+        targetHeight,
         gap,
-      }))
-    }
-  }, [width, height, gap])
+      })
+    : null
 
   const marginCSSKey = direction === 'ltr' ? 'marginLeft' : 'marginRight'
 
@@ -77,34 +77,35 @@ export const ImageRow = ({
       flexDirection: 'row',
       justifyContent: 'flex-start',
       ...style,
-      height: imageDimensions
-        ? Math.min(imageDimensions[0].height, targetHeight)
-        : targetHeight,
+      height: shouldBeFullWidthImage
+        ? 'auto'
+        : imageDimensions
+          ? Math.min(imageDimensions[0].height, targetHeight)
+          : targetHeight,
     }}
     ref={containerRef}>
-    {imageDimensions && images.map(({ type, ...imageProps}, index) => <div
-      style={index > 0 ? {
-        [marginCSSKey]: gap,
-      } : {}}>
-      <Block
-        {...imageProps}
+    {imageDimensions && images.map(({ type, ...imageProps}, index) => {
+      const width = shouldBeFullWidthImage
+        ? '100%'
+        : imageDimensions[index].width
+
+      const height = shouldBeFullWidthImage
+        ? 'auto'
+        : imageDimensions[index].height
+
+      return <div
         key={index}
-        type={type ? type : 'Image'}
-        width={imageDimensions[index].width}
-        height={imageDimensions[index].height}
-        onLoad={e => {
-          // if (aspectRatios[index].isProvisional) {
-          //   setImageAspectRatios([
-          //     ...aspectRatios.slice(0, index),
-          //     {
-          //       width: e.target.naturalWidth,
-          //       height: e.target.naturalHeight
-          //     },
-          //     ...aspectRatios.slice(index + 1)
-          //   ])
-          // }
-        }}
-      />
-    </div>)}
+        style={{
+          [marginCSSKey]: index > 0 ? gap : 0,
+          width,
+        }}>
+        <Block
+          {...imageProps}
+          type={type ? type : 'Image'}
+          width={width}
+          height={height}
+        />
+      </div>
+    })}
   </HtmlTag>
 }

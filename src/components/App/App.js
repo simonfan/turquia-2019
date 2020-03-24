@@ -1,27 +1,29 @@
 import React from 'react'
-import './App.scss'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Redirect
+} from 'react-router-dom'
 
-import { Block } from '../Block/Block'
-import { DataContext } from '../DataContext/DataContext'
-import IMAGES from '../../data/images.json'
+import { PhotoGallery } from '../PhotoGallery/PhotoGallery'
+
+const ROUTER_BASE_PATH = process.env.REACT_APP_ROUTER_BASE_PATH
 
 export const App = ({
-  sections
-}) => {
-  return <DataContext.Provider value={{
-      resolveImageUrls: ({ id }) => ({
-        placeholderSrc: `photos/miniature/${id}`,
-        src: `photos/display/${id}`,
-      }),
-      getImageData: ({ id }) => IMAGES[id]
-    }}>
-    <main className='App'>
-      {sections.map((section, index) => (
-        <Block
-          key={index}
-          {...section}
-        />
+  galleries
+}) => (
+  <Router basename={ROUTER_BASE_PATH}>
+    <Switch>
+      {galleries.map(([id, sections], index) => (
+        <Route path={`/${id}`} key={id}>
+          <PhotoGallery sections={sections} />
+        </Route>
       ))}
-    </main>
-  </DataContext.Provider>
-}
+
+      <Route path='/'>
+        <Redirect to={`/${galleries[0][0]}`} />
+      </Route>
+    </Switch>
+  </Router>
+)

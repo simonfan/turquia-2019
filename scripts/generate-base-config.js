@@ -13,6 +13,7 @@ const generateBaseConfig = async () => {
 
   const config = images.map(img => {
     return {
+      type: 'ImageSection',
       id: img,
       imageRows: [[{
         id: img,

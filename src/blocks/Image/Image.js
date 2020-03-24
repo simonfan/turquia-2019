@@ -1,32 +1,37 @@
 import React, { useContext } from 'react'
 import { DataContext } from '../../components/DataContext/DataContext'
-import LazyLoad from 'react-lazyload'
-import pick from 'lodash/pick'
-import Zoom from 'react-medium-image-zoom'
-import 'react-medium-image-zoom/dist/styles.css'
+import 'lazysizes'
+import 'lazysizes/plugins/attrchange/ls.attrchange'
+
+const ImageZoom = ({ zoom, alt, ...props }) => {
+  const zoomRef = React.useRef(zoom.clone())
+
+  const attachZoom = image => {
+    zoomRef.current.attach(image)
+  }
+
+  return <img
+    {...props}
+    alt={alt}
+    ref={attachZoom}
+  />
+}
 
 export const Image = ({
   Block,
   onLoad,
   ...props
 }) => {
-  const { resolveImageUrls } = useContext(DataContext)
-  const { src, placeholderSrc } = resolveImageUrls(props)
+  const { resolveImageUrls, zoomRef } = useContext(DataContext)
+  const { srcset, zoomSrc, placeholderSrc } = resolveImageUrls(props)
 
-  return <LazyLoad
-    placeholder={<img
-      {...props}
-      src={placeholderSrc}
-    />}
-    once
-    offset={200}>
-    <Zoom
-      overlayBgColorEnd='rgba(0, 0, 0, 0.95)'>
-      <img
-        {...props}
-        src={src}
-        onLoad={onLoad}
-      />
-    </Zoom>
-  </LazyLoad>
+  return <ImageZoom
+    {...props}
+    className='lazyload'
+    src={placeholderSrc}
+    data-srcset={srcset}
+    data-zoom-src={zoomSrc}
+    onLoad={onLoad}
+    zoom={zoomRef.current}
+  />
 }
