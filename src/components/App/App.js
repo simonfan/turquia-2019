@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Redirect
@@ -13,7 +13,7 @@ const ROUTER_BASE_PATH = process.env.REACT_APP_ROUTER_BASE_PATH
 export const App = ({
   galleries
 }) => (
-  <Router basename={ROUTER_BASE_PATH}>
+  <Router>
     <Switch>
       {galleries.map(([id, sections], index) => (
         <Route path={`/${id}`} key={id}>
