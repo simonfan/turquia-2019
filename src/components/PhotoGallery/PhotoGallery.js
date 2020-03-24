@@ -11,7 +11,7 @@ import { RichText } from '../../blocks/RichText/RichText'
 
 const PHOTOS_ROOT_URL = process.env.REACT_APP_PHOTOS_ROOT_URL
 
-const FOOTER_TEXT = `carnaval [blókõkê (@blokoke_)](https://www.instagram.com/blokoke_/)\nfotografia [simon fan](https://simonfan.com.br)`
+const FOOTER_TEXT = `fotografia [simon fan](https://simonfan.com.br)`
 
 export const PhotoGallery = ({
   sections
