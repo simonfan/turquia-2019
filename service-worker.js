@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/turquia-2019/precache-manifest.891fccdaf9779db4a6294e66bfa8000f.js"
+  "/turquia-2019/precache-manifest.aaa0fa84b00e88e3e257d37e75f1d247.js"
 );
 
 self.addEventListener('message', (event) => {

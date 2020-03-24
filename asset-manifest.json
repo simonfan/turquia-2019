@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/turquia-2019/static/css/main.8910beef.chunk.css",
-    "main.js": "/turquia-2019/static/js/main.8b090e7a.chunk.js",
-    "main.js.map": "/turquia-2019/static/js/main.8b090e7a.chunk.js.map",
+    "main.js": "/turquia-2019/static/js/main.f0755b40.chunk.js",
+    "main.js.map": "/turquia-2019/static/js/main.f0755b40.chunk.js.map",
     "runtime-main.js": "/turquia-2019/static/js/runtime-main.07152e54.js",
     "runtime-main.js.map": "/turquia-2019/static/js/runtime-main.07152e54.js.map",
     "static/css/2.764ccc25.chunk.css": "/turquia-2019/static/css/2.764ccc25.chunk.css",
     "static/js/2.8d6e8125.chunk.js": "/turquia-2019/static/js/2.8d6e8125.chunk.js",
     "static/js/2.8d6e8125.chunk.js.map": "/turquia-2019/static/js/2.8d6e8125.chunk.js.map",
     "index.html": "/turquia-2019/index.html",
-    "precache-manifest.891fccdaf9779db4a6294e66bfa8000f.js": "/turquia-2019/precache-manifest.891fccdaf9779db4a6294e66bfa8000f.js",
+    "precache-manifest.aaa0fa84b00e88e3e257d37e75f1d247.js": "/turquia-2019/precache-manifest.aaa0fa84b00e88e3e257d37e75f1d247.js",
     "service-worker.js": "/turquia-2019/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/turquia-2019/static/css/2.764ccc25.chunk.css.map",
     "static/css/main.8910beef.chunk.css.map": "/turquia-2019/static/css/main.8910beef.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.764ccc25.chunk.css",
     "static/js/2.8d6e8125.chunk.js",
     "static/css/main.8910beef.chunk.css",
-    "static/js/main.8b090e7a.chunk.js"
+    "static/js/main.f0755b40.chunk.js"
   ]
 }

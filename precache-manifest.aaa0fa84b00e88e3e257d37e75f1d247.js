@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d736f002206ef531b1e75f5e8c2e4402",
+    "revision": "23790ad1fcbe981aef8eaad0ff79070a",
     "url": "/turquia-2019/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/turquia-2019/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "6ada97c0308fb9b4170b",
+    "revision": "d1bc8178b21d34e1b6f8",
     "url": "/turquia-2019/static/css/main.8910beef.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/turquia-2019/static/js/2.8d6e8125.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "6ada97c0308fb9b4170b",
-    "url": "/turquia-2019/static/js/main.8b090e7a.chunk.js"
+    "revision": "d1bc8178b21d34e1b6f8",
+    "url": "/turquia-2019/static/js/main.f0755b40.chunk.js"
   },
   {
     "revision": "f73c63af79733b715681",
