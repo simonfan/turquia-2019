@@ -14,8 +14,13 @@ const PHOTOS_ROOT_URL = process.env.REACT_APP_PHOTOS_ROOT_URL
 const FOOTER_TEXT = `fotografia [simon fan](https://simonfan.com.br)`
 
 export const PhotoGallery = ({
-  sections
+  sections,
+  previousUrl,
+  nextUrl
 }) => {
+  console.log('entered')
+  window.scrollTo(0, 0)
+
   const zoomRef = React.useRef(mediumZoom({
     background: 'rgba(0, 0, 0, 0.9)',
     margin: 0,
@@ -48,6 +53,8 @@ export const PhotoGallery = ({
           marginTop: 150,
           marginBottom: 50
         }}>
+        <RichText className='RichText--figcaption' content={previousUrl} />
+        <RichText className='RichText--figcaption' content={nextUrl} />
         <RichText className='RichText--figcaption' content={FOOTER_TEXT} />
       </Section>
     </main>

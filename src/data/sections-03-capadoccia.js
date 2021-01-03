@@ -226,22 +226,13 @@ export default [
       [
         {
           "id": "DSC_3686.JPG"
-        }
-      ]
-    ],
-    "caption": "DSC_3686.JPG"
-  },
-  {
-    "type": "ImageSection",
-    "id": "DSC_3687.JPG",
-    "imageRows": [
-      [
+        },
         {
           "id": "DSC_3687.JPG"
         }
       ]
     ],
-    "caption": "DSC_3687.JPG"
+    "caption": "DSC_3686.JPG"
   },
   {
     "type": "ImageSection",

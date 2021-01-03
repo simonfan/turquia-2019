@@ -17,7 +17,11 @@ export const App = ({
     <Switch>
       {galleries.map(([id, sections], index) => (
         <Route path={`/${id}`} key={id}>
-          <PhotoGallery sections={sections} />
+          <PhotoGallery
+            sections={sections}
+            previousUrl={galleries[index - 1] && `[${galleries[index - 1][0]}](#/${galleries[index - 1][0]})`}
+            nextUrl={galleries[index + 1] && `[${galleries[index + 1][0]}](#/${galleries[index + 1][0]})`}
+          />
         </Route>
       ))}
 
